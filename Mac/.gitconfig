@@ -1,0 +1,14 @@
+[user]
+	email = is@wico.cc
+	name = Wico Wen
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
