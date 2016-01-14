@@ -9,8 +9,12 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
+
+"Not useing
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'Syntastic'
+"Plugin 'jshint.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
