@@ -2,7 +2,13 @@ export CLICOLOR="true"
 #export LSCOLORS="gxfxcxdxcxegedabagacad"
 export LSCOLORS="ExFxCxDxBxegedabagacad"
 export LESS="-erX"
+
 alias ll="ls -lG"
+alias gitpullod='git pull --rebase origin develop'
+alias gitpullom='git pull --rebase origin master'
+
+alias gitpushod='git push origin HEAD:refs/for/develop'
+alias gitpushom='git push origin HEAD:refs/for/master'
 
 export ANDROID_HOME="/usr/local/opt/android-sdk"
 
