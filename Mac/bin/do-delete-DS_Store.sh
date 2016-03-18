@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+find ./ -name ".DS_Store" -depth -exec rm {} \;
