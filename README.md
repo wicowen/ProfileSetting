@@ -1,3 +1,3 @@
 # ProfileSetting
 
-some environment setting backup
+my workshop environment settings
