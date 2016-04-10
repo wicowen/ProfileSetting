@@ -23,4 +23,4 @@ export NVM_DIR=~/.nvm
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 #tmux-git
-if [[ $TMUX ]]; then source ~/.tmux-git/tmux-git.sh; fi
+#if [[ $TMUX ]]; then source ~/.tmux-git/tmux-git.sh; fi
