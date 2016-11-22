@@ -6,13 +6,16 @@ export LSCOLORS="ExFxCxDxBxegedabagacad"
 export LESS="-erX"
 
 alias ll="ls -lG"
-alias gitpullod='git pull --rebase origin develop'
-alias gitpullom='git pull --rebase origin master'
 
-alias gitpushod='git push origin HEAD:refs/for/develop'
-alias gitpushom='git push origin HEAD:refs/for/master'
+#alias gitpullod='git pull --rebase origin develop'
+#alias gitpullom='git pull --rebase origin master'
 
-export ANDROID_HOME="/usr/local/opt/android-sdk"
+#alias gitpushod='git push origin HEAD:refs/for/develop'
+#alias gitpushom='git push origin HEAD:refs/for/master'
+
+alias gitpushgm='git push -u origin master'
+
+#export ANDROID_HOME="/usr/local/opt/android-sdk"
 
 #brew load nvm
 export NVM_DIR=~/.nvm
@@ -24,3 +27,6 @@ export NVM_DIR=~/.nvm
 
 #tmux-git
 #if [[ $TMUX ]]; then source ~/.tmux-git/tmux-git.sh; fi
+
+#home brew setting
+export PATH="/usr/local/sbin:$PATH"

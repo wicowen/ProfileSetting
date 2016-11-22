@@ -54,6 +54,7 @@ set nobackup
 "language english
 set encoding=utf-8
 set fileencodings=utf-8,cp950
+set backspace=2
 
 "set ls=2
 set laststatus=2
@@ -74,8 +75,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 "let mapleader=","
 
 
-set foldmethod=indent
-set foldlevelstart=3
+"set foldmethod=indent
+"set foldlevelstart=3
 
 "let javaScript_fold=1         " JavaScript
 "let php_folding=1             " PHP
