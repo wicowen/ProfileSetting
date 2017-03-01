@@ -70,6 +70,8 @@ map <C-l> gt
 inoremap jk <ESC>
 
 "set list listchars=tab:>-,eol:.
+
+"remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
 "let mapleader=","
@@ -87,3 +89,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 "let ruby_fold=1               " Ruby
 "let perl_fold=1               " Perl
 "let xml_syntax_folding=1      " XML
+
