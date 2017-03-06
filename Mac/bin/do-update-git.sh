@@ -11,7 +11,7 @@ for repo in $(find . -name ".git" | cut -c 3-); do
     echo $repo;
 
     # go to .git parent directory to use pull command
-    cd "$i";
+    cd "$repo";
     cd ..;
 
     # do pull
