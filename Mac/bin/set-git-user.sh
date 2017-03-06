@@ -14,7 +14,7 @@ while true; do
         ;;
         [Bb]* )
             git config --global user.name "wico"
-            git config --global user.email wico.wen@dlinkcorp.com
+            git config --global user.email wico@offic.com
             echo "set to office done"
             #cat ~/.gitconfig
             break
