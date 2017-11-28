@@ -16,7 +16,8 @@ for repo in $(find . -name ".git" | cut -c 3-); do
 
     # do pull
     git checkout master
-    git pull origin master;
+    git fetch origin
+    git reset --hard origin/master
 
     # get back to the CUR_DIR
     cd $CUR_DIR
