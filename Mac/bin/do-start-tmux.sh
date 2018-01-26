@@ -2,9 +2,6 @@
 
 tmux new-session -d
 
-tmux new-window -n 'command'
-tmux send-keys 'cd ~/' C-m
-
 tmux new-window -n 'blog'
 tmux send-keys 'cd ~/GitHub/node-hexo-blog' C-m
 
