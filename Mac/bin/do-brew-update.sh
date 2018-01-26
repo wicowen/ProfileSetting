@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-brew cask reinstall java && brew cask cleanup && brew update && brew upgrade && brew cleanup
+brew cask reinstall caskroom/versions/java8 && brew update && brew upgrade
