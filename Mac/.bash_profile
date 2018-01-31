@@ -7,6 +7,7 @@ export LESS="-erX"
 
 alias ll="ls -lG"
 alias gitpushom='git push -u origin master'
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 #alias gitpullod='git pull --rebase origin develop'
 #alias gitpullom='git pull --rebase origin master'
 

@@ -1,6 +1,6 @@
 [user]
 	email = is@wico.cc
-	name = Wico Wen
+	name = WicoWen
 [core]
 	editor = vim
 	excludesfile = /Users/wico/.gitignore_global
