@@ -59,10 +59,9 @@ set ignorecase
 
 set statusline=%4*%<\%m%<[%F\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Pos=%l,%v,%p%%]
 
-map <C-h> gT
-map <C-l> gt
-
-inoremap jk <ESC>
+"map <C-h> gT
+"map <C-l> gt
+"inoremap jk <ESC>
 
 "set list listchars=tab:>-,eol:.
 autocmd BufWritePre * :%s/\s\+$//e
