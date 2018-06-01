@@ -6,11 +6,14 @@ export LSCOLORS="ExFxCxDxBxegedabagacad"
 export LESS="-erX"
 
 alias ll="ls -lG"
+alias sl="ls -lG"
+
 alias gitpushom='git push -u origin master'
 alias gitpushodev='git push -u origin dev'
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 #alias gitpullod='git pull --rebase origin develop'
 #alias gitpullom='git pull --rebase origin master'
+
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 #home brew setting
 export PATH="/usr/local/sbin:$PATH"
