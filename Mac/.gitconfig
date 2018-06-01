@@ -1,6 +1,6 @@
 [user]
-	email = is@wico.cc
 	name = WicoWen
+	email = is@wico.cc
 [core]
 	editor = vim
 	excludesfile = /Users/wico/.gitignore_global
@@ -20,7 +20,8 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [filter "lfs"]
-	process = git-lfs filter-process
-	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
