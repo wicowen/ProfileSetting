@@ -64,6 +64,8 @@ set ignorecase
 
 set statusline=%4*%<\%m%<[%F\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Pos=%l,%v,%p%%]
 
+set mouse-=a
+
 map <C-h> gT
 map <C-l> gt
 
