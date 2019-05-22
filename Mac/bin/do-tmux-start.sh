@@ -6,10 +6,10 @@ tmux new-window -n 'me'
 tmux send-keys 'cd ~/GitHub/me-market-front' C-m
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-front-laboratory' C-m
+tmux send-keys 'cd ~/GitHub/me-front-lab' C-m
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-front-laboratory-public' C-m
+tmux send-keys 'cd ~/GitHub/me-front-autobuild' C-m
 
 tmux new-window -n 'blog'
 tmux send-keys 'cd ~/GitHub/node-hexo-blog' C-m
