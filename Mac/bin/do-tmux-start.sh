@@ -18,7 +18,7 @@ tmux new-window -n 'python'
 tmux send-keys 'cd ~/GitHub/' C-m
 
 tmux new-window -n 'php'
-tmux send-keys 'cd ~/GitHub/interview-CtCI-6th-Edition-php' C-m
+tmux send-keys 'cd ~/GitHub/php-interview-CtCI-6th-Edition' C-m
 
 tmux new-window -n 'frontend'
 tmux send-keys 'cd ~/GitHub/App_010' C-m
