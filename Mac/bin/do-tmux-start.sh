@@ -3,13 +3,13 @@
 tmux new-session -d
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-market-front' C-m
+tmux send-keys 'cd ~/GitHub/me-frontend-lab' C-m
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-front-lab' C-m
+tmux send-keys 'cd ~/GitHub/me-frontend-app' C-m
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-front-autobuild' C-m
+tmux send-keys 'cd ~/GitHub/me-frontend-search' C-m
 
 tmux new-window -n 'blog'
 tmux send-keys 'cd ~/GitHub/node-hexo-blog' C-m
