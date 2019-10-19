@@ -3,13 +3,13 @@
 tmux new-session -d
 
 tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-frontend-lab' C-m
+tmux send-keys 'cd ~/GitHub/' C-m
 
-tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-frontend-app' C-m
+tmux new-window -n 'me-app'
+tmux send-keys 'cd ~/GitHub/me-frontend-app && cd app' C-m
 
-tmux new-window -n 'me'
-tmux send-keys 'cd ~/GitHub/me-frontend-search' C-m
+tmux new-window -n 'me-search'
+tmux send-keys 'cd ~/GitHub/me-frontend-search && cd search' C-m
 
 tmux new-window -n 'blog'
 tmux send-keys 'cd ~/GitHub/node-hexo-blog' C-m
@@ -25,7 +25,6 @@ tmux send-keys 'cd ~/GitHub/App_010' C-m
 
 tmux new-window -n 'backend'
 tmux send-keys 'cd ~/GitHub/App_008' C-m
-
 
 
 #tmux new-window -n 'python'

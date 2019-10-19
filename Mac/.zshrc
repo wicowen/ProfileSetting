@@ -28,4 +28,3 @@ export NVM_DIR="$HOME/.nvm"
 #export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH="$PATH:$HOME/Development/flutter/bin"
-
