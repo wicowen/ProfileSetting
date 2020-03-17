@@ -5,6 +5,9 @@ tmux new-session -d
 tmux new-window -n 'me'
 tmux send-keys 'cd ~/GitHub/' C-m
 
+tmux new-window -n 'me-artist'
+tmux send-keys 'cd ~/GitHub/me-frontend-artist' C-m
+
 tmux new-window -n 'me-app'
 tmux send-keys 'cd ~/GitHub/me-frontend-app && cd app' C-m
 
@@ -26,6 +29,11 @@ tmux send-keys 'cd ~/GitHub/App_010' C-m
 tmux new-window -n 'backend'
 tmux send-keys 'cd ~/GitHub/App_008' C-m
 
+tmux new-window -n 'bash'
+tmux send-keys 'cd ~/' C-m
+
+tmux new-window -n 'bash'
+tmux send-keys 'cd ~/' C-m
 
 #tmux new-window -n 'python'
 #tmux send-keys 'cd ~/GitHub/Python-PTTCrawlerLibrary' C-m
