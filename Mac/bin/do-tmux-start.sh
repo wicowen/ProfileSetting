@@ -29,10 +29,7 @@ tmux send-keys 'cd ~/GitHub/App_010' C-m
 tmux new-window -n 'backend'
 tmux send-keys 'cd ~/GitHub/App_008' C-m
 
-tmux new-window -n 'bash'
-tmux send-keys 'cd ~/' C-m
-
-tmux new-window -n 'bash'
+tmux new-window -n ''
 tmux send-keys 'cd ~/' C-m
 
 #tmux new-window -n 'python'
