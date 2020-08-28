@@ -4,6 +4,7 @@
 [core]
 	editor = vim
 	excludesfile = /Users/wico/.gitignore_global
+	autocrlf = false
 [merge]
 	tool = vimdiff
 [color]
@@ -13,6 +14,7 @@
 	ci = commit
 	st = status
 	br = branch
+	adog = log --all --decorate --oneline --graph
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
@@ -25,3 +27,5 @@
 	process = git-lfs filter-process
 	required = true
 
+[pull]
+	rebase = false
